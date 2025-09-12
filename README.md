@@ -5,3 +5,9 @@
 - id 입력시 id 상품의 남은 재고 검색
 - 가장 많이 팔린 상품 & 가장 적게 팔린 상품
 - 상품 부족 수량
+
+### 9/12
+- command
+- inbound or sale (single or all)
+- remain stock
+- exit command
