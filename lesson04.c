@@ -20,7 +20,8 @@ void saleSingle(int in[], int out[], int remain[], int stock);
 
 void showStatus(int in[], int out[], int remain[], int stock);
 
-/* ---------- main ---------- */
+
+
 int main(void) {
     int stock = 5;                 // 상품 개수
     int in[MAX_ITEMS]    = {0};    // 입고 누적
@@ -46,7 +47,6 @@ int main(void) {
     return 0;
 }
 
-/* ---------- 공통/유틸 구현 ---------- */
 
 // 메인 메뉴
 int commandMenu(void) {
