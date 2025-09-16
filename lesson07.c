@@ -253,7 +253,7 @@ void showStatus(Item items[], int stock) {
     */
     printf("-----------------재고-----------------\n");
     for (int i = 0; i < stock; i++) {
-        printf(" %d | %-10s | %2d | %2d | %5d |   %s\n", i+1 , defaultName(&items[i]), items[i].in, items[i].out, items[i].price, (items[i].remain <= 2)? "X" : "O" );
+        printf(" %d | %11s | %2d | %2d | %5d |   %s\n", i+1 , defaultName(&items[i]), items[i].in, items[i].out, items[i].price, (items[i].remain <= 2)? "X" : "O" );
     }
 
     {
